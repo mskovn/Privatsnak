@@ -1,0 +1,81 @@
+body{
+
+    margin: 0;
+    padding: 0;
+
+    background-color: antiquewhite;
+
+}
+
+
+nav{
+
+    display: flex;
+
+}
+
+
+.nav_knap{
+
+    margin: 10px;
+    border: solid 10px black;
+
+
+
+}
+
+#wrapper {
+
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+
+}
+
+
+section{
+
+    position: relative;
+
+    width: 100%;
+    height: 50vw;
+
+
+    border: solid red 2px;
+
+    margin: 10px;
+
+    border-radius: 10px;
+
+
+
+
+}
+
+.moodboard_1{
+
+    height: 100%;
+
+
+    background-image: url(moodboard/mb1.jpg);
+    background-size: 100% 100%;
+     border-radius: 10px;
+
+
+
+}
+
+.moodboard_2{
+
+    height: 100%;
+
+
+    background-image: url(moodboard/mb2.jpg);
+    background-size: 100% 100%;
+     border-radius: 10px;
+
+
+
+}
