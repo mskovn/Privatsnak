@@ -25,6 +25,14 @@ a{
     cursor: pointer;
 }
 
+h1{
+    font-size: 3em;
+    text-transform: uppercase;
+    color:
+    #f4912d;
+
+}
+
 nav a{
 
 
@@ -87,7 +95,8 @@ section{
 section a{
 
     text-decoration: none;
-    color: #f4912d;
+    color: #89cce5;
+    font-size: .9em;
 }
 
 .moodboard_1_box{
