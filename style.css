@@ -15,10 +15,15 @@ nav{
 }
 
 
-.nav_knap{
+a{
+
 
     margin: 10px;
+    padding: 10px;
     border: solid 10px black;
+
+    color:orangered;
+    text-decoration: none;
 
 }
 
