@@ -4,25 +4,42 @@ body{
     padding: 0;
 
     background-color: antiquewhite;
-
+    position: relative;
 }
 
 
 nav{
 
+
+
     display: flex;
+       justify-content: space-between;
+
+
+
+    z-index: 20;
 
 }
 
+a{
+    cursor: pointer;
+}
 
 nav a{
 
 
-    margin: 10px;
-    padding: 10px;
-    border: solid 10px black;
+    margin: 1vw .1vw;
+    padding: 10px 3vw;
+    border-radius: 3vw;
+    width: 10vw;
+    background-color:  #f4912d;
+    font-family: 'Varela Round', sans-serif;
 
-    color:orangered;
+    font-size: 1.5vw;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: white;
     text-decoration: none;
 
 }
@@ -50,15 +67,27 @@ section{
     position: relative;
 
 
-    border: solid red 2px;
 
-    margin: 10px;
+
+    padding: 2vw;
+
+    margin: 1vw;
 
     border-radius: 10px;
+    color: aliceblue;
+
+    font-family: 'Varela Round', sans-serif;
+    background-color: #202532;
 
 
 
 
+}
+
+section a{
+
+    text-decoration: none;
+    color: #f4912d;
 }
 
 .moodboard_1_box{
