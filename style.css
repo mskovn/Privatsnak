@@ -5,21 +5,30 @@ body{
 
     background-color: antiquewhite;
     position: relative;
+
+
 }
 
 
 nav{
 
+    position: fixed;
+    display: flex;
+    width: 100%;
+
+
+    background-color: #cbd0dd;
 
 
     display: flex;
        justify-content: space-between;
 
-
+overflow: auto;
 
     z-index: 20;
 
 }
+
 
 a{
     cursor: pointer;
@@ -35,15 +44,15 @@ h1{
 
 nav a{
 
+    box-sizing: content-box;
+    margin: 1em 1em;
+    padding: 1em 5em;
+    border-radius: 3em;
 
-    margin: 1vw .1vw;
-    padding: 10px 3vw;
-    border-radius: 3vw;
-    width: 10vw;
     background-color:  #f4912d;
     font-family: 'Varela Round', sans-serif;
 
-    font-size: 1.5vw;
+    font-size: .5em;
     text-align: center;
     text-transform: uppercase;
 
@@ -55,8 +64,9 @@ nav a{
 img{
 
     width: 100%;
-    border-radius: 10px;
+    border-radius: 2vw;
 }
+
 
 
 #wrapper {
@@ -72,16 +82,16 @@ img{
 
 section{
 
-    position: relative;
+    position: static;
 
 
 
 
     padding: 2vw;
 
-    margin: 1vw;
+    margin: 2vw;
 
-    border-radius: 10px;
+    border-radius: 2px;
     color: aliceblue;
 
     font-family: 'Varela Round', sans-serif;
